@@ -14,7 +14,7 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 import org.firstinspires.ftc.teamcode.util.Configuration;
 
-public class PedroPathingConstants {
+public class Constants {
 
     private static Configuration config = new Configuration();
 
