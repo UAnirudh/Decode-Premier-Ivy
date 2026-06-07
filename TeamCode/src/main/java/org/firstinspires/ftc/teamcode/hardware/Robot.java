@@ -12,7 +12,7 @@ import org.firstinspires.ftc.teamcode.hardware.subsystems.ShooterSubsystem;
 import org.firstinspires.ftc.teamcode.hardware.subsystems.SpindexerSubsystem;
 import org.firstinspires.ftc.teamcode.hardware.subsystems.TurretOdometrySubsystem;
 import org.firstinspires.ftc.teamcode.hardware.subsystems.TurretSubsystem;
-import org.firstinspires.ftc.teamcode.pedroPathing.PedroPathingConstants;
+import org.firstinspires.ftc.teamcode.pedroPathing.Constants;
 import org.firstinspires.ftc.teamcode.util.Configuration;
 import org.firstinspires.ftc.teamcode.util.Globals;
 import org.firstinspires.ftc.teamcode.util.wrappers.RE_SubsystemBase;
@@ -53,7 +53,7 @@ public class Robot {
         this.hardwareMap = hardwareMap;
         this.telemetry = telemetry;
 
-        this.follower = PedroPathingConstants.createFollower(hardwareMap);
+        this.follower = Constants.createFollower(hardwareMap);
         follower.update();
         telemetry.update();
 
